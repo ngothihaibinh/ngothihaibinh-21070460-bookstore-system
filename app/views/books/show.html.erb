@@ -14,8 +14,24 @@
 
   <ul class="text-slate-700">
       <li>
-        <p class="font-semibold">Title:</p>
-        <p><%= @book.title %></p>
+        <p class="font-semibold">Name:</p>
+        <p><%= @book.name %></p>
+      </li>
+      <li>
+        <p class="font-semibold">Book type:</p>
+        <p><%= @book.book_type %></p>
+      </li>
+      <li>
+        <p class="font-semibold">Publish year:</p>
+        <p><%= @book.publish_year %></p>
+      </li>
+      <li>
+        <p class="font-semibold">Price:</p>
+        <p><%= @book.price %></p>
+      </li>
+      <li>
+        <p class="font-semibold">Subject:</p>
+        <p><%= @book.subject.name %></p>
       </li>
       <li>
         <p class="font-semibold">Author:</p>
@@ -24,14 +40,6 @@
       <li>
         <p class="font-semibold">Publisher:</p>
         <p><%= @book.publisher %></p>
-      </li>
-      <li>
-        <p class="font-semibold">Year:</p>
-        <p><%= @book.year %></p>
-      </li>
-      <li>
-        <p class="font-semibold">Subject:</p>
-        <p><%= @book.subject %></p>
       </li>
   </ul>
 </div>
