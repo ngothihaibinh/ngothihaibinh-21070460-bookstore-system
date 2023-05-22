@@ -19,6 +19,6 @@ module Ngothihaibinh21070460BookstoreSystemFinalSubmission
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-    config.hosts << "ngothihaibinh-21070460-final-submission.app"
+    config.hosts << "ngothihaibinh-21070460-final-submission.up.railway.app"
   end
 end
